@@ -40,7 +40,7 @@ const TableHeader = () => {
     const renderHeaderCell = (label, column, isSortable) => (
         <th
             key={column}
-            className={`whitespace-nowrap text-left px-4 py-4 font-medium text-lg text-gray-900 ${isSortable ? 'cursor-pointer flex gap-1 items-center' : ''}`}
+            className={`whitespace-nowrap ${label === "Image" ? 'text-center' : 'text-left'} px-4 py-4 font-medium text-lg text-gray-900 ${isSortable ? 'cursor-pointer flex gap-1 items-center' : ''}`}
             onClick={isSortable ? () => handleSort(column) : undefined}
         >
             {label}
