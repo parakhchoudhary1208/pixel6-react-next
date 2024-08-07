@@ -22,7 +22,7 @@ const UserListContent = () => {
 
 
     return (
-        <div className="sm:px-8 sm:pb-8 sm:pt-0 px-4 pb-4 pt-4 w-screen overflow-hidden">
+        <div className="sm:px-8 sm:pb-8 sm:pt-0 px-4 pb-4 pt-4 overflow-hidden">
             <div className="flex sm:flex-row flex-col gap-5 justify-between sm:items-center mb-8">
                 <p className="text-left font-semibold text-xl sm:text-3xl text-gray-950">Employees</p>
                 <div className="flex gap-5 items-center">
